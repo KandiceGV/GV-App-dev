@@ -1,0 +1,47 @@
+{
+  "cli": {
+    "version": ">= 3.15.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "EXPO_PUBLIC_API_KEY":"AIzaSyCDqHw2PFzgY47fagnrFD6YIsm5LCR5jAo",
+        "EXPO_PUBLIC_AUTH_DOMAIN":"gold-valley-cf4cc.firebaseapp.com",
+        "EXPO_PUBLIC_DATABASE_URL":"https://gold-valley-cf4cc.firebaseio.com",
+        "EXPO_PUBLIC_PROJECT_ID":"gold-valley-cf4cc",
+        "EXPO_PUBLIC_STORAGE_BUCKET":"gold-valley-cf4cc.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_I":"1006010084073",
+        "EXPO_PUBLIC_APP_ID":"1:1006010084073:web:c48249a4c139cbcbf45e78",
+        "EXPO_PUBLIC_MEASUREMENT_ID":"G-14RRWKM2YB"
+      },
+      "channel": "development"
+    },
+    "preview": {
+      "distribution": "internal",
+      "developmentClient": false,
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_KEY":"AIzaSyCDqHw2PFzgY47fagnrFD6YIsm5LCR5jAo",
+        "EXPO_PUBLIC_AUTH_DOMAIN":"gold-valley-cf4cc.firebaseapp.com",
+        "EXPO_PUBLIC_DATABASE_URL":"https://gold-valley-cf4cc.firebaseio.com",
+        "EXPO_PUBLIC_PROJECT_ID":"gold-valley-cf4cc",
+        "EXPO_PUBLIC_STORAGE_BUCKET":"gold-valley-cf4cc.appspot.com",
+        "EXPO_PUBLIC_MESSAGING_SENDER_I":"1006010084073",
+        "EXPO_PUBLIC_APP_ID":"1:1006010084073:web:c48249a4c139cbcbf45e78",
+        "EXPO_PUBLIC_MEASUREMENT_ID":"G-14RRWKM2YB"
+      },
+      "channel": "preview"
+    },
+    "production": {
+      "developmentClient": false,
+      "channel": "production"
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

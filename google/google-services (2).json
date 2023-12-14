@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1006010084073",
+    "firebase_url": "https://gold-valley-cf4cc.firebaseio.com",
+    "project_id": "gold-valley-cf4cc",
+    "storage_bucket": "gold-valley-cf4cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006010084073:android:822071b8d4dfb76a",
+        "android_client_info": {
+          "package_name": "GoldValley.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006010084073-06oifou8hjhc5gdpesq7cmlvuv41g3f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiG7AIPmVEh4L8_QrFuJpODnlz5J2nwXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006010084073-06oifou8hjhc5gdpesq7cmlvuv41g3f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006010084073:android:e7fae5ded07a27b2f45e78",
+        "android_client_info": {
+          "package_name": "com.goldvalley.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006010084073-06oifou8hjhc5gdpesq7cmlvuv41g3f7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiG7AIPmVEh4L8_QrFuJpODnlz5J2nwXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006010084073-06oifou8hjhc5gdpesq7cmlvuv41g3f7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

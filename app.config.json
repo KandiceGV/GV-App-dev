@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Gold Valley",
+    "jsEngine": "jsc",
+    "version": "1.0.1",
+    "notification": {
+      "icon": "./assets/icon.png",
+      "androidMode": "default",
+      "color": "#ffffff"
+    },
+    "web": {
+      "favicon": "./assets/icon.png",
+      "backgroundColor": "#ffffff"
+    },
+  
+    "plugins": [
+      "react-native-wifi-reborn"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "5d866a2e-5472-42dc-b85b-dd61d0107746"
+      }
+    },
+    "android": {
+      "package": "GoldValley.com",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5d866a2e-5472-42dc-b85b-dd61d0107746"
+    },
+    "ios": {
+      "bundleIdentifier": "GoldValley.com"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}

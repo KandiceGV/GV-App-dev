@@ -1,0 +1,71 @@
+{
+
+  "expo": {
+
+    "platforms": ["android"],
+    "owner": "Cornelius Van Der Steenhoven",
+    "primaryColor": "#000000",
+    "privacy": "unlisted",
+    "name": "Gold Valley",
+    "slug": "Gold Valley",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+  "runtimeVersion":{"policy": "nativeVersion"},
+    "notification": {
+      "icon": "./assets/icon.png",
+      "color": "#ffffff",
+      "androidMode": "default",
+      "iosDisplayInForeground": true
+    },
+    "plugins": [
+      ["expo-notifications", {
+        "icon": "./assets/gv.png",
+        "color": "#ffffff"
+      }],
+      "react-native-wifi-reborn",
+      "react-native-wifi-hotspot",
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics",
+      "@react-native-firebase/auth",
+      "@react-native-firebase/firestore",
+      "@react-native-firebase/messaging"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+"adaptiveIcon": {
+  "foregroundImage": "./assets/icon.png",
+  "backgroundColor": "#ffffff",
+  "backgroundImage": "./assets/icon.png",
+  "monochromeImage": "./assets/icon.png"
+},
+      "package": "GoldValley.com",
+      "googleServicesFile": "./google/google-services.json",
+      "permissions": [
+        "CHANGE_NETWORK_STATE",
+        "CHANGE_WIFI_STATE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        
+      ],
+      "runtimeVersion": "1.0.1"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "backgroundColor": "#ffffff",
+      
+    }
+  }
+}
